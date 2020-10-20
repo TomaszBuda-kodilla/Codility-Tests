@@ -4,7 +4,7 @@ import java.util.List;
 
 public class RemovingElements {
     public static void main(String[] args) {
-        int[] array = {1, 2, 5, 4, 6, 7, 9, 8}; // 1 2 5 6 7 8      remove 4 9
+        int[] array = {1, 2, 5, 4, 6, 7, 9, 8};
         System.out.println(returnValidSortedArray(array));
         int[] array2 = {1, 2, 4, 3, 5, 7, 8, 6, 9, 10};
         System.out.println(returnValidSortedArray(array2));
